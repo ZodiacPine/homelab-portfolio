@@ -1,58 +1,36 @@
-\# AI Server
+# AI Server
 
-
-
-\## Overview
-
-
+## Overview
 
 Dedicated local AI server used for hosting large language models and developing a Jarvis-style AI assistant.
 
-
-
-\## Hardware
-
-
+## Hardware
 
 | Component | Specification |
-
 |------------|------------|
-
 | CPU | Intel Core i5-9400F |
-
-| RAM | 16 GB DDR4 |
-
-| GPU | AMD RX 570 4 GB |
-
+| RAM | 16 GB |
+| GPU | AMD RX 570 4GB |
 | Storage | 128 GB NVMe SSD |
 
+## Software
 
+- Ubuntu Server
+- Ollama
+- Open WebUI
 
-\## Software
+## Current Features
 
+- Local LLM inference
+- Web chat interface
+- Speech-to-text
+- Text-to-speech
+- Jarvis assistant development
 
+## Future Plans
 
-/- Ubuntu Server
-
-/- Ollama
-
-/- Open WebUI
-
-
-
-\## Current Features
-
-
-
-/- Home automation integration
-
-/- Additional  AI models
-
-/- Expanded voice control
-
-
-
-
-
-I'll be adding more Ram and Storage to Jarvis eventually...
+- Home automation integration
+- Additional AI models
+- Hardware upgrades
+- Expanded voice control
 
