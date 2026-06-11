@@ -1,12 +1,12 @@
-# ZodiacPine's Homelab Portfolio
+# Chris's Homelab Portfolio
 
-## Overview
+## About Me
 
-This repository documents my homelab projects, AI infrastructure, Linux servers, networking, and automation systems.
+I am building a homelab focused on virtualization, Linux administration, AI infrastructure, networking, and automation.
 
-## Current Infrastructure
+## Current Projects
 
-### Proxmox Server
+### Proxmox Infrastructure
 - Virtualization host
 - Backup and storage services
 
@@ -14,9 +14,19 @@ This repository documents my homelab projects, AI infrastructure, Linux servers,
 - Ubuntu Server
 - Ollama
 - Open WebUI
-- Local LLM deployment
+- Local LLM hosting
 
-### Jarvis Assistant
-- Local AI assistant
-- Voice interaction
-- Automation platform
+### Jarvis AI Assistant
+- Voice assistant
+- Local AI inference
+- Home automation integration (planned)
+
+## Skills
+
+- Linux
+- Proxmox
+- Networking
+- AI Infrastructure
+- Python
+- Troubleshooting
+- Virtualization
