@@ -6,7 +6,15 @@
 
 
 
-This server acts as the core infrastructure host for my homelab.
+The Proxmox server provides the core infrastructure platform for the homelab.
+
+
+
+It serves as the central virtualization, storage, and backup system supporting the Jarvis AI Assistant project and future homelab services.
+
+
+
+\---
 
 
 
@@ -14,11 +22,21 @@ This server acts as the core infrastructure host for my homelab.
 
 
 
-\### Server
+\### Server Purpose
 
 
 
-\- Purpose: Virtualization and storage
+\* Virtualization platform
+
+\* Backup storage
+
+\* Infrastructure services
+
+\* Future service hosting
+
+
+
+\---
 
 
 
@@ -26,21 +44,109 @@ This server acts as the core infrastructure host for my homelab.
 
 
 
-\- Proxmox VE
+\* Proxmox VE
+
+\* Linux
+
+\* SSH
 
 
 
-\## Responsibilities
+\---
 
 
 
-\- Virtual machine hosting
+\## Current Responsibilities
 
-\- Storage services
 
-\- Backup services
 
-\- Homelab infrastructure
+\### Virtualization
+
+
+
+\* Virtual machine hosting
+
+\* Infrastructure management
+
+\* Resource allocation
+
+
+
+\### Storage
+
+
+
+\* Centralized storage
+
+\* Backup repository
+
+\* Future media storage
+
+
+
+\### Backup Services
+
+
+
+\* Jarvis backup storage
+
+\* Configuration backups
+
+\* Infrastructure protection
+
+
+
+\### Administration
+
+
+
+\* SSH management
+
+\* Linux administration
+
+\* Infrastructure maintenance
+
+
+
+\---
+
+
+
+\## Current Infrastructure Role
+
+
+
+
+
+Jarvis AI Server
+
+&#x20;       │
+
+&#x20;       ▼
+
+&#x20;Automated Backups
+
+&#x20;       │
+
+&#x20;       ▼
+
+&#x20;Proxmox Storage
+
+
+
+Jamal Agent
+
+&#x20;       │
+
+&#x20;       ▼
+
+&#x20;Future Backup Integration
+
+```
+
+
+
+\---
 
 
 
@@ -48,15 +154,27 @@ This server acts as the core infrastructure host for my homelab.
 
 
 
-\- Virtualization
+\* Proxmox VE Administration
 
-\- Linux Administration
+\* Virtualization
 
-\- Networking
+\* Linux Administration
 
-\- Troubleshooting
+\* Infrastructure Management
 
-\- Infrastructure Management
+\* Backup Systems
+
+\* SSH Administration
+
+\* Storage Management
+
+\* Networking
+
+\* Troubleshooting
+
+
+
+\---
 
 
 
@@ -64,11 +182,37 @@ This server acts as the core infrastructure host for my homelab.
 
 
 
-\- Monitoring dashboard
+\### Short-Term
 
-\- Automated backups
 
-\- Additional virtual machines
 
-\- Hardware upgrades
+\* Additional VM deployments
+
+\* Infrastructure monitoring
+
+\* Improved backup automation
+
+
+
+\### Long-Term
+
+
+
+\* Dedicated backup server
+
+\* Centralized logging
+
+\* Infrastructure dashboards
+
+\* High-availability services
+
+\* Expanded virtualization environment
+
+
+
+```
+
+```
+
+
 

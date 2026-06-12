@@ -26,11 +26,13 @@ The long-term goal is to create a realistic AI assistant capable of interacting 
 
 
 
-\- Local LLM inference
+\* Local LLM inference using Ollama
 
-\- Open WebUI integration
+\* Self-hosted deployment
 
-\- Self-hosted deployment
+\* Open WebUI integration
+
+\* Custom system prompts and personality configuration
 
 
 
@@ -38,31 +40,53 @@ The long-term goal is to create a realistic AI assistant capable of interacting 
 
 
 
-\- Speech-to-text (STT)
+\* Wake word detection
 
-\- Text-to-speech (TTS)
+\* Whisper.cpp speech-to-text
 
-\- Voice-based conversations
+\* Piper text-to-speech
 
-
-
-\### Service Management
+\* Voice-based conversations
 
 
 
-\- Runs as a Windows service using NSSM
-
-\- Automatic startup and operation
+\### Home Automation
 
 
 
-\### Automation
+\* Home Assistant integration
+
+\* Office light control
+
+\* Smart device interaction
 
 
 
-\- Basic smart home integration
+\### Remote Computer Control
 
-\- Office light control
+
+
+\* Jamal Agent integration
+
+\* Remote application launching
+
+\* Process monitoring
+
+\* Screenshot capture
+
+\* System monitoring
+
+
+
+\### Infrastructure
+
+
+
+\* SSH communication between systems
+
+\* REST API integrations
+
+\* Cross-platform Linux and Windows management
 
 
 
@@ -70,7 +94,11 @@ The long-term goal is to create a realistic AI assistant capable of interacting 
 
 
 
-\- Automatic self-backup functionality
+\* Automated backups
+
+\* Proxmox backup storage
+
+\* Service auto-start and recovery
 
 
 
@@ -114,25 +142,25 @@ User Response
 
 
 
-\- AI Infrastructure
+\* AI Infrastructure
 
-\- Linux Administration
+\* Linux Administration
 
-\- Windows Service Management
+\* Windows Service Management
 
-\- Large Language Models
+\* Large Language Models
 
-\- Speech Recognition
+\* Speech Recognition
 
-\- Text-to-Speech Systems
+\* Text-to-Speech Systems
 
-\- Automation
+\* Automation
 
-\- API Integration
+\* API Integration
 
-\- System Design
+\* System Design
 
-\- Troubleshooting
+\* Troubleshooting
 
 
 
@@ -144,17 +172,17 @@ User Response
 
 
 
-\- Limited home automation coverage
+\* Limited home automation coverage
 
-\- Limited computer control
+\* Limited computer control
 
-\- Basic agent framework
+\* Basic agent framework
 
-\- Limited memory capabilities
+\* Limited memory capabilities
 
-\- No presence awareness
+\* No presence awareness
 
-\- No autonomous updating
+\* No autonomous updating
 
 
 
@@ -170,11 +198,11 @@ User Response
 
 
 
-\- Expanded smart home controls
+\* Expanded smart home controls
 
-\- Computer application control
+\* Computer application control
 
-\- Improved automation tools
+\* Improved automation tools
 
 
 
@@ -182,11 +210,11 @@ User Response
 
 
 
-\- Advanced memory systems
+\* Advanced memory systems
 
-\- Better agent framework
+\* Better agent framework
 
-\- Safe self-updating
+\* Safe self-updating
 
 
 
@@ -194,11 +222,11 @@ User Response
 
 
 
-\- Presence detection
+\* Presence detection
 
-\- Environmental awareness
+\* Environmental awareness
 
-\- Context-aware actions
+\* Context-aware actions
 
 
 
@@ -206,19 +234,17 @@ User Response
 
 
 
-\- Full computer control
+\* Full computer control
 
-\- Complete smart home integration
+\* Complete smart home integration
 
-\- Autonomous backups
+\* Autonomous backups
 
-\- Autonomous updates
+\* Autonomous updates
 
-\- Presence awareness
+\* Presence awareness
 
-\- Context-aware interactions
+\* Context-aware interactions
 
-\- Realistic assistant behavior
-
-
+\* Realistic assistant behavior
 

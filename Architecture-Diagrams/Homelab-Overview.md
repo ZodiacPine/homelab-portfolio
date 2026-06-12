@@ -1,106 +1,173 @@
-\# Homelab Overview
+
+# Homelab Overview
+
+## Purpose
+
+This homelab is designed to provide hands-on experience with systems engineering, AI infrastructure, virtualization, networking, automation, and self-hosted services.
+
+The environment serves as both a learning platform and a production environment for the Jarvis AI Assistant project.
+
+---
+
+## Current Homelab Architecture
 
 
+                           Internet
+                               │
+                               ▼
+                         Router/Switch
+                               │
+        ┌──────────────────────┼──────────────────────┐
+        │                      │                      │
+        ▼                      ▼                      ▼
 
-\## Purpose
+   AI Server              Gaming PC            Proxmox Server
+   "Jarvis"                "Jamal"              "Homelab"
 
+192.168.1.43           192.168.1.201        192.168.1.153
 
-
-This homelab is designed to provide infrastructure for virtualization, media services, AI experimentation, automation, and development of a Jarvis-style AI assistant.
-
-
-
-\## High-Level Architecture
-
-
-
-\## Current Homelab Architecture
-
-Gaming PC
-
-&#x20;   │
-
-&#x20;   ├── Proxmox Server
-
-&#x20;   │      ├── Jellyfin
-
-&#x20;   │      ├── Sonarr
-
-&#x20;   │      ├── Radarr
-
-&#x20;   │      ├── Prowlarr
-
-&#x20;   │      ├── qBittorrent
-
-&#x20;   │      └── FlareSolverr
-
-&#x20;   │
-
-&#x20;   └── AI Server
-
-&#x20;          ├── Ubuntu Server
-
-&#x20;          ├── Ollama
-
-&#x20;          ├── Open WebUI
-
-&#x20;          ├── STT
-
-&#x20;          ├── TTS
-
-&#x20;          └── Jarvis
-
-&#x20;                    │
-
-&#x20;                    └── Home Automation
-
-&#x20;                             └── Office Light
-
+ Ubuntu Server            Windows 11           Proxmox VE
+     │                        │                    │
+     │                        │                    │
+     ├─ Ollama                ├─ Jamal Agent      ├─ Virtual Machines
+     ├─ Whisper.cpp           ├─ Process Monitor  ├─ Backup Storage
+     ├─ Piper                 ├─ Screenshots      ├─ Infrastructure
+     ├─ Jarvis                ├─ App Control      └─ Future Services
+     └─ Home Assistant        └─ System Status
 ```
 
+---
 
+## Infrastructure Components
 
-\## Infrastructure Components
+### AI Server (Jarvis)
 
+Primary AI platform.
 
+Responsibilities:
 
-\### Proxmox Server
+* Ollama hosting
+* Speech recognition
+* Text-to-speech
+* Jarvis assistant logic
+* Home Assistant integration
+* Backup automation
 
+---
 
+### Gaming PC (Jamal)
 
-Provides virtualization, media services, and storage.
+Primary workstation and remote-control target.
 
+Responsibilities:
 
+* Application launching
+* Screenshot capture
+* Process monitoring
+* System monitoring
+* Remote automation
 
-\### AI Server
+---
 
+### Proxmox Server
 
+Primary infrastructure platform.
 
-Provides local LLM hosting and Jarvis functionality.
+Responsibilities:
 
+* Virtualization
+* Storage
+* Backup services
+* Infrastructure hosting
 
+---
 
-\### Jarvis
+## Communication Flow
 
+### Voice Interaction
 
-
-Provides voice interaction, automation, and future intelligent assistant capabilities.
-
-
-
-\## Future Expansion
-
-
-
-\- Full smart home integration
-
-\- Computer control
-
-\- Presence detection
-
-\- Autonomous memory systems
-
-\- Additional AI models
-
+```text
+User
+ ↓
+Wake Word
+ ↓
+Whisper.cpp
+ ↓
+Jarvis
+ ↓
+Ollama
+ ↓
+Piper
+ ↓
+Speaker
 ```
 
+### Remote Computer Control
+
+```text
+Jarvis
+ ↓
+REST API
+ ↓
+Jamal Agent
+ ↓
+Windows Applications
+```
+
+### Backup Flow
+
+```text
+Jarvis
+ ↓
+Backup Scripts
+ ↓
+SSH
+ ↓
+Proxmox Storage
+```
+
+---
+
+## Technologies Used
+
+### Infrastructure
+
+* Proxmox VE
+* Ubuntu Server
+* Windows 11
+* SSH
+
+### AI
+
+* Ollama
+* Whisper.cpp
+* Piper
+* Open WebUI
+
+### Automation
+
+* Home Assistant
+* REST APIs
+* Python
+* NSSM
+
+---
+
+## Future Expansion
+
+### Short-Term
+
+* Screenshot analysis
+* Additional automation routines
+* Expanded monitoring
+
+### Long-Term
+
+* Multi-agent architecture
+* Vision-enabled AI
+* Advanced memory systems
+* Infrastructure dashboards
+* Centralized monitoring
+
+```
+```
