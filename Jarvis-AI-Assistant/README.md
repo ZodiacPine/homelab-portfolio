@@ -16,8 +16,6 @@ The long-term goal is to create a realistic AI assistant capable of interacting 
 
 \---
 
-
-
 \## Current Features
 
 
@@ -32,7 +30,9 @@ The long-term goal is to create a realistic AI assistant capable of interacting 
 
 \* Open WebUI integration
 
-\* Custom system prompts and personality configuration
+\* Custom Jarvis personality and system prompts
+
+\* Local-first architecture with no cloud dependency
 
 
 
@@ -40,13 +40,71 @@ The long-term goal is to create a realistic AI assistant capable of interacting 
 
 
 
-\* Wake word detection
+\* Wake word activation ("Hey Jarvis")
 
 \* Whisper.cpp speech-to-text
 
 \* Piper text-to-speech
 
-\* Voice-based conversations
+\* Natural voice conversations
+
+\* Hands-free command execution
+
+
+
+\### Internet Search \& Learning
+
+
+
+\* Internet search capability
+
+\* Search result summarization
+
+\* Persistent knowledge storage
+
+\* Learning commands ("Learn about...")
+
+\* Memory retrieval ("What do you know about...")
+
+\* Local knowledge database
+
+
+
+\### Vision
+
+
+
+\* Moondream vision model integration
+
+\* Screenshot analysis
+
+\* Visual scene description
+
+\* Foundation for future webcam awareness
+
+
+
+\### Remote Computer Control
+
+
+
+\* Jamal Agent integration
+
+\* Remote application launching
+
+\* Firefox control
+
+\* Discord control
+
+\* Steam control
+
+\* Workstation locking
+
+\* Process monitoring
+
+\* Screenshot capture
+
+\* System monitoring
 
 
 
@@ -60,21 +118,7 @@ The long-term goal is to create a realistic AI assistant capable of interacting 
 
 \* Smart device interaction
 
-
-
-\### Remote Computer Control
-
-
-
-\* Jamal Agent integration
-
-\* Remote application launching
-
-\* Process monitoring
-
-\* Screenshot capture
-
-\* System monitoring
+\* Foundation for expanded automation
 
 
 
@@ -86,11 +130,13 @@ The long-term goal is to create a realistic AI assistant capable of interacting 
 
 \* REST API integrations
 
-\* Cross-platform Linux and Windows management
+\* Linux and Windows interoperability
+
+\* Cross-system command execution
 
 
 
-\### Maintenance
+\### Reliability \& Maintenance
 
 
 
@@ -98,7 +144,13 @@ The long-term goal is to create a realistic AI assistant capable of interacting 
 
 \* Proxmox backup storage
 
-\* Service auto-start and recovery
+\* Startup automation
+
+\* Service auto-recovery
+
+\* Backup verification procedures
+
+
 
 
 
@@ -112,25 +164,61 @@ The long-term goal is to create a realistic AI assistant capable of interacting 
 
 User Voice
 
-↓
+│
 
-Speech-to-Text
+▼
 
-↓
+Whisper.cpp
 
-Jarvis Logic
+│
 
-↓
+▼
 
-Local LLM
+Wake Listener
 
-↓
+│
 
-Text-to-Speech
+▼
 
-↓
+Jarvis Core Logic
 
-User Response
+│
+
+┌──┼───────────────┬──────────────┐
+
+│   │                    │                    │
+
+▼  ▼                    ▼                    ▼
+
+Memory             Internet Search         PC Control
+
+Lookup                  System               Agent
+
+│                        │                    │
+
+▼                       ▼                    ▼
+
+Knowledge            Summaries             Jamal PC
+
+Database
+
+│
+
+▼
+
+Ollama
+
+│
+
+▼
+
+Piper TTS
+
+│
+
+▼
+
+Voice Response
 
 
 
@@ -172,17 +260,23 @@ User Response
 
 
 
-\* Limited home automation coverage
+\* Memory system is keyword-based rather than semantic
 
-\* Limited computer control
+\* Vision currently uses screenshots instead of live camera feeds
 
-\* Basic agent framework
+\* Limited Home Assistant device coverage
 
-\* Limited memory capabilities
+\* No vector database for advanced knowledge retrieval
 
-\* No presence awareness
+\* No autonomous task planning
 
-\* No autonomous updating
+\* No long-term conversation memory
+
+\* Limited environmental awareness
+
+\* No live webcam perception
+
+\* Limited self-maintenance capabilities
 
 
 
